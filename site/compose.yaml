@@ -1,0 +1,9 @@
+services:
+  reportbridge-www:
+    build:
+      context: .
+      dockerfile: ./Containerfile
+    container_name: reportbridge-www
+    restart: always
+    ports:
+      - "8085:80"

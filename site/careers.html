@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ReportBridge | Вакансии</title>
+  <meta name="description" content="Вакансии ReportBridge: ищем инженеров платформы, reliability и продуктовой интеграции.">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body data-page="careers">
+  <canvas id="ascii-field" aria-hidden="true"></canvas>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="./index.html">
+        <span class="brand-mark">RB</span>
+        <span class="brand-copy">
+          <strong>ReportBridge</strong>
+          <span>Compliance Reporting Platform</span>
+        </span>
+      </a>
+      <nav class="site-nav">
+        <a href="./platform.html">Платформа</a>
+        <a href="./security.html">Безопасность</a>
+        <a href="./careers.html">Вакансии</a>
+      </nav>
+    </header>
+
+    <main class="subpage-main">
+      <section class="page-intro panel">
+        <p class="eyebrow">Вакансии</p>
+        <h1>Ищем команду, которая умеет строить delivery-контур без лишнего театра.</h1>
+        <p>
+          У нас небольшая инженерная команда, много интеграций, высокий темп релизов и реальная ответственность за экспортные пакеты клиентов.
+        </p>
+      </section>
+
+      <section class="dual-layout">
+        <article class="panel">
+          <p class="eyebrow">Open Roles</p>
+          <h2>Senior DevOps / Platform Engineer</h2>
+          <p>
+            Нужен человек, который умеет работать с edge-контуром, reverse proxy, внутренними API, migration checklists и служебной диагности⁠кой.
+          </p>
+          <ul class="clean-list">
+            <li>опыт с nginx, Linux и change management</li>
+            <li>понимание service tokens и operational hygiene</li>
+            <li>опыт с CI/CD и артефактными пайплайнами</li>
+            <li>умение писать понятные migration runbooks</li>
+          </ul>
+        </article>
+        <article class="panel panel-accent">
+          <p class="eyebrow">Exercise Pack</p>
+          <h2>Тестовое задание для DevOps-кандидатов</h2>
+          <p>
+            Для первой встречи мы просим кандидатов ознакомиться с кратким миграционным exercise pack и прислать комментарии по rollout-рискам.
+          </p>
+          <a class="button button-primary" href="./assets/DevOps_Migration_Exercise.pdf">Скачать DevOps Migration Exercise.pdf</a>
+          <p class="small-copy">
+            Документ описывает миграцию edge-компонентов, работу status-сигналов и базовую change-коммуникацию.
+          </p>
+        </article>
+      </section>
+
+      <section class="panel">
+        <p class="eyebrow">Культура</p>
+        <h2>Что для нас важно</h2>
+        <div class="timeline">
+          <article>
+            <span>A1</span>
+            <h3>Operational clarity</h3>
+            <p>Нам нужны инженеры, которые оставляют после себя не только работающий сервис, но и читаемые инструкции.</p>
+          </article>
+          <article>
+            <span>A2</span>
+            <h3>Measured change</h3>
+            <p>Мы не любим лишний шум, зато любим change notes, reviews и понятные rollback-контуры.</p>
+          </article>
+          <article>
+            <span>A3</span>
+            <h3>Small-team ownership</h3>
+            <p>У нас нет бюрократии ради бюрократии: инженер отвечает за сервис от маршрута до артефакта.</p>
+          </article>
+        </div>
+      </section>
+      <!-- RB-F1: На странице вакансий выложен DevOps Migration Exercise.pdf с первой зацепкой на status.reportbridge.test -->
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <strong>ReportBridge</strong>
+        <p>Пиши на jobs@reportbridge.test, если тебе нравится приводить edge-хаос в предсказуемое состояние.</p>
+      </div>
+      <div class="footer-links">
+        <a href="./index.html">Главная</a>
+        <a href="./platform.html">Платформа</a>
+        <a href="./security.html">Trust Center</a>
+      </div>
+    </footer>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.env
+.venv/
+*.bak.*
+*.swp
+*.tmp
+*.log
+
+site/.7z
+reportbridge_lab_design_walkthrough.docx:Zone.Identifier
+
+vpn_dns/.env
+vpn_dns/podman/env/web-vpn.env

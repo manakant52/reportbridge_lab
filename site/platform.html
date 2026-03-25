@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ReportBridge | Платформа</title>
+  <meta name="description" content="Компоненты платформы ReportBridge: ingestion, export orchestration, API delivery и audit layer.">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body data-page="platform">
+  <canvas id="ascii-field" aria-hidden="true"></canvas>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="./index.html">
+        <span class="brand-mark">RB</span>
+        <span class="brand-copy">
+          <strong>ReportBridge</strong>
+          <span>Compliance Reporting Platform</span>
+        </span>
+      </a>
+      <nav class="site-nav">
+        <a href="./platform.html">Платформа</a>
+        <a href="./security.html">Безопасность</a>
+        <a href="./careers.html">Вакансии</a>
+      </nav>
+    </header>
+
+    <main class="subpage-main">
+      <section class="page-intro panel">
+        <p class="eyebrow">Платформа</p>
+        <h1>Слой данных, orchestration и доставка отчетов в едином продукте.</h1>
+        <p>
+          ReportBridge соединяет ingest-конвейеры, правила обогащения, экспортные пайплайны и внешние API в одну рабочую плоскость.
+        </p>
+      </section>
+
+      <section class="section-grid three-up">
+        <article class="panel feature-card">
+          <h2>Connectors</h2>
+          <p>ERP, CRM, биллинг, SFTP-dropzones и внутренние webhook-источники.</p>
+        </article>
+        <article class="panel feature-card">
+          <h2>Mapping Layer</h2>
+          <p>Нормализация схем, tenant tags, business rule transforms и дедупликация.</p>
+        </article>
+        <article class="panel feature-card">
+          <h2>Export Engine</h2>
+          <p>Формирование архивов, CSV/XLSX/PDF-бандлов и публикация через download API.</p>
+        </article>
+      </section>
+
+      <section class="dual-layout">
+        <article class="panel">
+          <p class="eyebrow">Core Stack</p>
+          <h2>Что внутри продукта</h2>
+          <ul class="clean-list">
+            <li>Ingestion jobs с расписаниями и retry policy</li>
+            <li>Tenant-scoped export orchestration</li>
+            <li>Service tokens для внутренних status-интеграций</li>
+            <li>Download endpoints для клиентских export packages</li>
+            <li>Audit trail на каждую публикацию и загрузку</li>
+          </ul>
+        </article>
+        <article class="panel panel-accent">
+          <p class="eyebrow">Use Cases</p>
+          <h2>Кому подходит ReportBridge</h2>
+          <ul class="clean-list">
+            <li>финансовым командам с регламентными выгрузками</li>
+            <li>operations-командам, которым нужен повторяемый export flow</li>
+            <li>продуктовым командам, публикующим customer-facing bundles</li>
+            <li>интеграционным командам, которым нужен стабильный reporting API</li>
+          </ul>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <strong>ReportBridge</strong>
+        <p>Единый слой отчетности для команд, которые выросли из ручных выгрузок.</p>
+      </div>
+      <div class="footer-links">
+        <a href="./index.html">Главная</a>
+        <a href="./security.html">Trust Center</a>
+        <a href="./careers.html">Вакансии</a>
+      </div>
+    </footer>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>

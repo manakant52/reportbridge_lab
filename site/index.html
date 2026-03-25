@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ReportBridge | Корпоративная отчетность без хаоса</title>
+  <meta name="description" content="ReportBridge помогает B2B-командам собирать данные, выпускать регламентные отчеты и раздавать экспортные пакеты через единый API.">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body data-page="home">
+  <canvas id="ascii-field" aria-hidden="true"></canvas>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="./index.html">
+        <span class="brand-mark">RB</span>
+        <span class="brand-copy">
+          <strong>ReportBridge</strong>
+          <span>Compliance Reporting Platform</span>
+        </span>
+      </a>
+      <nav class="site-nav">
+        <a href="./platform.html">Платформа</a>
+        <a href="./security.html">Безопасность</a>
+        <a href="./careers.html">Вакансии</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-copy panel">
+          <p class="eyebrow">B2B SaaS для управленческой и регламентной отчетности</p>
+          <h1>Одна платформа для отчетов, экспортов и API-интеграций.</h1>
+          <p class="lede">
+            ReportBridge связывает внутренние системы заказчика с единым контуром публикации отчетов.
+            Финансы, операции и compliance-команды получают один канал доставки, а разработчики не тонут в кастомных выгрузках.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="./platform.html">Посмотреть платформу</a>
+            <a class="button button-secondary" href="./security.html">Изучить Trust Center</a>
+          </div>
+          <dl class="hero-metrics">
+            <div>
+              <dt>1.2B+</dt>
+              <dd>строк агрегировано за квартал</dd>
+            </div>
+            <div>
+              <dt>94</dt>
+              <dd>типовых экспортных шаблона</dd>
+            </div>
+            <div>
+              <dt>&lt; 5 мин</dt>
+              <dd>среднее время публикации bundle</dd>
+            </div>
+          </dl>
+        </div>
+        <aside class="hero-rail panel panel-accent">
+          <p class="eyebrow">Поток данных</p>
+          <div class="terminal-card">
+            <div class="terminal-line"><span>source</span><span>erp-sync</span></div>
+            <div class="terminal-line"><span>jobs</span><span>18 active</span></div>
+            <div class="terminal-line"><span>exports</span><span>queued: 03</span></div>
+            <div class="terminal-line"><span>api</span><span>healthy</span></div>
+            <div class="terminal-line"><span>status</span><span>green</span></div>
+          </div>
+          <p class="small-copy">
+            Команды видят единый жизненный цикл отчета: ingestion, enrichment, export, audit trail и доставка клиентам.
+          </p>
+        </aside>
+      </section>
+
+      <section class="section-grid">
+        <article class="panel feature-card">
+          <p class="eyebrow">Data Federation</p>
+          <h2>Собирайте данные из ERP, CRM, биллинга и внутренних API.</h2>
+          <p>
+            Гибкий ingest-конвейер нормализует поля, связывает tenant-контекст и подготавливает единый слой данных
+            для финансовых, продуктовых и операционных команд.
+          </p>
+        </article>
+        <article class="panel feature-card">
+          <p class="eyebrow">Export Delivery</p>
+          <h2>Формируйте управленческие и регламентные пакеты без ручной сборки.</h2>
+          <p>
+            Снимайте bundle по расписанию, отдавайте его по API или публикуйте архивы по ролевой модели доступа для клиентов и внутренних команд.
+          </p>
+        </article>
+        <article class="panel feature-card">
+          <p class="eyebrow">Observability</p>
+          <h2>Держите под контролем маршруты, статусы и события публикации.</h2>
+          <p>
+            Сервисные страницы, webhook-уведомления и журналы доступа помогают видеть не только ошибки, но и реальную картину доставки отчетов.
+          </p>
+        </article>
+      </section>
+
+      <section class="timeline-section panel">
+        <div class="section-heading">
+          <p class="eyebrow">Почему нас выбирают</p>
+          <h2>ReportBridge создан для команд, у которых отчетность уже перестала помещаться в Excel.</h2>
+        </div>
+        <div class="timeline">
+          <article>
+            <span>01</span>
+            <h3>Снижение ручной сборки</h3>
+            <p>Отчеты и архивы больше не собираются руками из четырех систем и пяти таблиц.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Единый API-контур</h3>
+            <p>Все интеграции проходят через единый gateway и предсказуемые export endpoints.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Аудит и доверие клиентов</h3>
+            <p>У каждого export-пакета сохраняется история публикации, загрузки и изменения статуса.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="quote-strip panel">
+        <p class="eyebrow">Клиенты</p>
+        <blockquote>
+          «Мы сократили цикл публикации квартальных выгрузок с двух дней до двадцати минут и перестали терять контроль над версиями архивов».
+        </blockquote>
+        <p class="quote-author">Operations Lead, North Axis Capital</p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <strong>ReportBridge</strong>
+        <p>Платформа отчетности для B2B SaaS-команд, которым нужен порядок в данных, экспортных пакетах и интеграциях.</p>
+      </div>
+      <div class="footer-links">
+        <a href="./platform.html">Платформа</a>
+        <a href="./security.html">Trust Center</a>
+        <a href="./careers.html">Вакансии</a>
+      </div>
+    </footer>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>

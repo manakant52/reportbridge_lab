@@ -1,0 +1,213 @@
+%PDF-1.4
+%âãÏÓ
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R 5 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 7 0 R /F2 8 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 1774 >>
+stream
+0.10 0.18 0.24 rg
+36 760 523 54 re f
+0.48 0.93 0.82 rg
+36 744 523 4 re f
+1 1 1 rg
+BT
+/F2 24 Tf
+52 790 Td
+24 TL
+(DevOps Migration Exercise) Tj
+ET
+0.68 0.78 0.82 rg
+BT
+/F1 11 Tf
+52 768 Td
+14 TL
+(ReportBridge platform migration review workbook) Tj
+ET
+0.80 0.90 0.94 rg
+BT
+/F2 13 Tf
+52 700 Td
+18 TL
+(Context) Tj
+T*
+(ReportBridge is moving parts of its public edge stack into a refreshed cloud environment.) Tj
+T*
+(The platform team wants candidates to review the migration plan and identify the riskiest) Tj
+T*
+(operational gaps before final cutover.) Tj
+ET
+0.86 0.92 0.95 rg
+BT
+/F1 12 Tf
+52 640 Td
+18 TL
+(Scope for review) Tj
+T*
+(- reverse proxy cutover and upstream health visibility) Tj
+T*
+(- migration aliases and temporary artifact exposure) Tj
+T*
+(- service status communication for external customers) Tj
+T*
+(- post-change validation and rollback signals) Tj
+ET
+0.18 0.34 0.42 RG
+52 520 491 118 re S
+0.48 0.93 0.82 rg
+BT
+/F2 14 Tf
+66 622 Td
+18 TL
+(Migration notes) Tj
+ET
+0.90 0.94 0.96 rg
+BT
+/F1 11 Tf
+66 596 Td
+16 TL
+(1. Confirm that the public status page reflects the new edge routing before cleanup.) Tj
+T*
+(2. Remove temporary aliases only after validating customer-facing checks.) Tj
+T*
+(3. Archive diagnostic outputs and migration artifacts after sign-off.) Tj
+T*
+() Tj
+T*
+(Reference host: status.reportbridge.test) Tj
+T*
+(Reference edge node: edge-01) Tj
+ET
+0.70 0.79 0.83 rg
+BT
+/F1 11 Tf
+52 470 Td
+16 TL
+(Hiring signal) Tj
+T*
+(Candidates should submit a short note describing what they would verify first) Tj
+T*
+(on the external edge before declaring the migration complete.) Tj
+ET
+0.48 0.93 0.82 rg
+BT
+/F2 13 Tf
+52 96 Td
+16 TL
+(ReportBridge Platform Team) Tj
+ET
+0.72 0.81 0.85 rg
+BT
+/F1 10 Tf
+52 76 Td
+14 TL
+(Prepared for technical screening, March 2026) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 7 0 R /F2 8 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 1310 >>
+stream
+0.10 0.18 0.24 rg
+36 760 523 54 re f
+0.48 0.93 0.82 rg
+36 744 523 4 re f
+1 1 1 rg
+BT
+/F2 24 Tf
+52 790 Td
+24 TL
+(Reviewer prompts) Tj
+ET
+0.68 0.78 0.82 rg
+BT
+/F1 11 Tf
+52 768 Td
+14 TL
+(Use these questions to structure your response.) Tj
+ET
+0.88 0.93 0.96 rg
+BT
+/F1 12 Tf
+52 700 Td
+18 TL
+(Operational prompts) Tj
+T*
+(1. Which public endpoint should be checked first after the cutover?) Tj
+T*
+(2. Which temporary migration materials must be removed from the edge?) Tj
+T*
+(3. What would you log during the first 24 hours after deployment?) Tj
+T*
+(4. Which customer-facing signal should remain available during rollout?) Tj
+ET
+0.18 0.34 0.42 RG
+52 486 491 154 re S
+0.48 0.93 0.82 rg
+BT
+/F2 14 Tf
+66 622 Td
+18 TL
+(Expected reviewer conclusion) Tj
+ET
+0.90 0.94 0.96 rg
+BT
+/F1 11 Tf
+66 596 Td
+16 TL
+(The external status service must be validated first, because it exposes the) Tj
+T*
+(customer-visible signal path during migration. Temporary artifact aliases and) Tj
+T*
+(diagnostic endpoints should be considered high-risk leftovers until explicitly removed.) Tj
+T*
+() Tj
+T*
+(Suggested review target: status.reportbridge.test) Tj
+T*
+(Associated edge context: edge-01 reverse proxy cutover) Tj
+ET
+0.72 0.81 0.85 rg
+BT
+/F1 10 Tf
+52 90 Td
+14 TL
+(Confidentiality: internal hiring pack for technical assessment only.) Tj
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+8 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+9 0 obj
+<< /Title (DevOps Migration Exercise) /Author (ReportBridge Platform Team) /Subject (Edge migration review pack) /Keywords (status.reportbridge.test, edge-01, migration, reverse proxy, diagnostics) >>
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000019 00000 n 
+0000000068 00000 n 
+0000000131 00000 n 
+0000000267 00000 n 
+0000002092 00000 n 
+0000002228 00000 n 
+0000003589 00000 n 
+0000003659 00000 n 
+0000003734 00000 n 
+trailer
+<< /Size 10 /Root 1 0 R /Info 9 0 R >>
+startxref
+3950
+%%EOF

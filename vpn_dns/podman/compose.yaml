@@ -1,0 +1,18 @@
+services:
+  web-vpn-portal:
+    build:
+      context: .
+      dockerfile: ./Containerfile
+    container_name: web-vpn-portal
+    restart: always
+    network_mode: host
+    cap_add:
+      - NET_ADMIN
+      - NET_RAW
+    security_opt:
+      - label=disable
+    env_file:
+      - ./env/web-vpn.env
+    volumes:
+      - ./data:/data:Z
+      - /etc/wireguard:/etc/wireguard:rw,rshared
